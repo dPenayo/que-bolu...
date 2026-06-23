@@ -1,50 +1,48 @@
-# Welcome to your Expo app 👋
+# QUÉ BOLÚ... 📱💥
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**DETECTOR DE IDIOTAS · V1.0**
 
-## Get started
+App Android que detecta cuando tirás el celular y reproduce el Wilhelm Scream.
+Porque alguien tenía que decírtelo.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## ¿Qué hace?
 
-2. Start the app
+- Detecta caídas del celular usando el acelerómetro
+- Reproduce el **Wilhelm Scream** automáticamente al detectar una caída
+- Caídas más largas activan el **Tom Scream** como bonus
+- Muestra frases sarcásticas en cada caída
+- Registra el historial de caídas con fecha y hora
+- Contador de "veces que la cagaste"
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## Screenshots
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+| Home (inactivo) | Activo | Caída detectada | Historial | Sobre la app |
+|---|---|---|---|---|
+| ![home-off](screenshots/home-off.jpg) | ![home-on](screenshots/home-on.jpg) | ![caida](screenshots/caida.jpg) | ![historial](screenshots/historial.jpg) | ![about](screenshots/about.jpg) |
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## Tecnologías
 
-When you're ready, run:
+- [React Native](https://reactnative.dev/) + [Expo](https://expo.dev/)
+- TypeScript
+- `expo-sensors` — acelerómetro para detección de caídas
+- `expo-audio` — reproducción de audio
+- `AsyncStorage` — persistencia del historial
+- `expo-router` — navegación por tabs
 
-```bash
-npm run reset-project
-```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Estado del proyecto
 
-## Learn more
+🚧 En desarrollo activo — próximamente en Google Play Store.
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Autor
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+**Daniel Penayo** · [LinkedIn](https://www.linkedin.com/in/daniel-penayo-a4616a2b8/)
