@@ -1,6 +1,6 @@
 # QUÉ BOLÚ... 📱💥
 
-**DETECTOR DE IDIOTAS · V1.0**
+**DETECTOR DE CAIDAS · V1.0**
 
 App Android que detecta cuando tirás el celular y reproduce el Wilhelm Scream.
 Porque todos tienen que saber que tenés mantequita en las manitos.
